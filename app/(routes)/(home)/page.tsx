@@ -1,13 +1,14 @@
 import { TreePalm } from "lucide-react";
+import { LinkProfile } from "./components";
 
 export default function HomePage() {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols[60%_auto] gap-4 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-[60%_auto] gap-4 px-4 mt-9">
         <div>
           <div>
             {/* Link profile */}
-            <p>Link profile</p>
+            <LinkProfile />
           </div>
 
           <div>
@@ -26,6 +27,7 @@ export default function HomePage() {
 
         <div>
           {/* Profile Preview */}
+          <p>Profile preview</p>
         </div>
       </div>
     </div>
